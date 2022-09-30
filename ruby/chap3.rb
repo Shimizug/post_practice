@@ -4,8 +4,9 @@
 # end
 a = 0
 (1..2).each do |x|
-  @y = "#{a = a+1}SHEEP"*x
+  (1..2).each do |y|
+  @z = "#{y}SHEEP"*x
 
 end
   
-  puts @y
+  puts @z

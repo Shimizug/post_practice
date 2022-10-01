@@ -2,11 +2,10 @@
 #   y = "#{x}SHEEP"*x
 #   puts y.slice(33333,20)
 # end
-a = 0
 (1..2).each do |x|
   (1..2).each do |y|
-  @z = "#{y}SHEEP"*x
-
+    @z = "#{y}SHEEP"*x
+  end
 end
   
-  puts @z
+puts @z

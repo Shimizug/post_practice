@@ -5,7 +5,10 @@
 (1..2).each do |x|
   (1..2).each do |y|
     @z = "#{y}SHEEP"*x
+    p z
   end
 end
   
 puts @z
+
+

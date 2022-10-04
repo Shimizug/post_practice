@@ -10,3 +10,5 @@ public class Main{
     fortune++;
     System.out.println("占いの結果が出ました");
     System.out.println(age + "歳の" + name + "さん、あなたの運勢番号は" + fortune + "です");
+  }
+}

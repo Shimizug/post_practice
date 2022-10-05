@@ -17,7 +17,7 @@ public class Switch{
         break;
       default:
         System.out.println("1~4で入力してください");
-        break
+        break;
     }
   }
 }

@@ -1,5 +1,5 @@
-puublic class Chapter07{
-  public static void main(String[] args{
+public class Chapter07{
+  public static void main(String[] args){
     int distance = 13;
     if (distance <= 5){
       System.out.println("とても近いです");

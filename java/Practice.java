@@ -1,8 +1,4 @@
-public class Practice{
-  public static void hello(){
-    System.out.print("hello");
-  }
-  public static void main(String[] args){
-    hello();
-  }
+public class Account{
+  String account.number; //口座番号
+  int balance; //残額
 }

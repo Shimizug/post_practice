@@ -16,4 +16,11 @@ public class Hero{
   public  void run(){
     System.out.println(this.name +"は逃げ出した。最終HPは" + this.hp);
   }
+  public Hero(String name){
+    this.hp = 100;
+    this.name =name;
+  }
+  public Hero(){
+    this("ダミー");
+  }
 }

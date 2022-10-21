@@ -1,6 +1,6 @@
 import javax.swing.JFrame;
  
-class Hero{
+class Test{
 	public static void main(String[] args) {
 		new TestWindow("テストウィンドウ",400,300);
 	}

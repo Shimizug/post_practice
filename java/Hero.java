@@ -1,18 +1,9 @@
-import javax.swing.JFrame;
- 
-class Hero{
-	public static void main(String[] args) {
-		new TestWindow("テストウィンドウ",400,300);
-	}
-}
- 
-class TestWindow extends JFrame{
-	public TestWindow(String title, int width, int height) {
-		super(title);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);//閉じるボタンの処理
-		setSize(width,height);//ウィンドウサイズ
-		setLocationRelativeTo(null);//画面中央に配置
-		setResizable(false);//リサイズ禁止
-		setVisible(true);//ウィンドウ表示
+public class Hero{
+	String name;
+	int hp;
+	
+	public void sleep(){
+		this.hp = 100;
+		System.out.println(this.name + "は、眠って回復した");
 	}
 }

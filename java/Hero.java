@@ -8,11 +8,11 @@ public class Hero{
 	}
 	public void sit(int sec){
 		this.hp += sec;
-		System.out.println(this.name + "は、" + sec + "秒座った！/n" + "HPが" + sec + "ポイント回復した" );
+		System.out.println(this.name + "は、" + sec + "秒座った！\nHPが" + sec + "ポイント回復した" );
 	}
 	
 	public void slip(){
-		rhis.hp -= 5;
+		this.hp -= 5;
 		System.out.println(this.name + "は、転んだ！");
 		System.out.println("5のダメージ!");
 	}

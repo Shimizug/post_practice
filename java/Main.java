@@ -12,6 +12,9 @@ public class Main{
     m2.hp = 48;
     m2.suffix = 'B';
     
+    Cleric c = new Cleric();
+    c.name = "聖職者";
+    
     System.out.println("勇者" + h.name + "を生み出しました!");
     h.sit(5);
     h.slip();
@@ -19,5 +22,7 @@ public class Main{
     m1.run();
     m2.run();
     h.run();
+    c.selfAid();
+    c.pray(2);
   }
 }

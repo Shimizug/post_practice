@@ -3,6 +3,7 @@ public class Main{
     Hero h = new Hero();
     h.name = "ミナト";
     h.hp = 100;
+    h.blade.name = "炎の剣";
     
     Matango m1 = new Matango();
     m1.hp = 50;
@@ -24,5 +25,6 @@ public class Main{
     h.run();
     c.selfAid();
     c.pray(2);
+    h.attack();
   }
 }

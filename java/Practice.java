@@ -3,6 +3,6 @@ public class Practice{
     //int 型の変数 x、y に数値 13、17 を代入し、x、y の値を“x=13,y=17”のように表示するプログラムを作成しなさい。
     int x = 13;
     int y = 17;
-    String.out.println("x= " + x + "y= " + y);
+    System.out.println("x=" + x + ",y=" + y);
   }
 }

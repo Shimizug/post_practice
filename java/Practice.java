@@ -1,9 +1,23 @@
+import java.io.*;
+
 public class Practice{
   public static void main(String[] args){
-    //iint 型の変数 x、y に数値 19、23 を代入し、その積を変数 z に代入して z の値を表示するプログラムを作成しなさい。
-    int x = 19;
-    int y = 23;
-    int z = x * y;
-    System.out.println(z);
+    // java.ioパッケージのBufferedReaderBufferedReaderクラスのいんすたんすを作成 コントラクタに値を送信
+    BufferedReader br = new BuffererdReader(new In)
   }
 }
+
+/*
+import java.io.*;
+
+public class Prsctice
+{
+    public static void main( String[] args ) throws IOException
+    {
+        BufferedReader br = new BufferedReader(
+                                new InputStreamReader( System.in ) );
+
+        String  s = br.readLine();    // 1行分の文字列を入力する
+    }
+}
+*/

@@ -16,6 +16,10 @@ public class Main{
     Cleric c = new Cleric();
     c.name = "聖職者";
     
+    Wizard w = new Wizard();
+    w.name = "スガワラ";
+    w.hp = 50;
+    
     System.out.println("勇者" + h.name + "を生み出しました!");
     h.sit(5);
     h.slip();
@@ -26,5 +30,6 @@ public class Main{
     c.selfAid();
     c.pray(2);
     h.attack();
+    w.heal(h);
   }
 }
